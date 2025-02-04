@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        li{
+            font-size: 1.2em;
+        }
+        a{
+            color: rgb(215, 36, 36);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(126, 10, 10);
+        }
+        a:hover{
+            color: rgb(55, 10, 139);
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(98, 0, 255);
+        }
+        a.principal::before{
+            content: '> ';
+            color: rgb(197, 39,107);
+        }
+        a.principal::after{
+            content: ' <';
+            color: rgb(197, 39, 107);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="link1/" target="_blank">link 1 rem ipsum  Offici ea quao odit! Amet.</a>
+        <li><a href="link2/" target="_blank" class="principal">link 2 Lorem  Oicia ea quao odit! Amet.</a> 
+        <li><a href="link3/" target="_blank"l>link 3 orem ipsum  icia ea quao odit! Amet.</a>
+    </ul>
+</body>
+</html>
