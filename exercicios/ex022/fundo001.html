@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo de imagens</title>
+    <title>Teste de imagem de fundo</title>
+    <style>
+        :root{
+            --qua: 300px ;
+        }
+
+        body{
+            background-image: url('images/wallpaper005.jpg');
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: var(--qua);
+            width: var(--qua);
+            background-color: rgb(249, 241, 229);
+        }
+        #q1{
+            background-color: skyblue;
+        }
+        #q2{
+            background: linear-gradient(45deg , blue , red);
+        }
+        #q3{
+            background-image: url('images/pattern003.png');
+        }
+    </style>
 </head>
 <body>
     <h1>Testando fundo de imagens</h1>
+    <div id="q1" class="quadrado">
+
+    </div>
+    <div id="q2" class="quadrado">
+
+    </div>
+    <div id="q3" class="quadrado">
+
+    </div>
 </body>
 </html>
