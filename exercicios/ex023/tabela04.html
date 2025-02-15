@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            background-color: rgba(190, 216, 244, 0.595);
+            width: 100%;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            width: 70%;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-collapse: collapse;
+
+            position: relative;
+        }
+        caption{
+            font: bold 1.5em arial;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+        td , th{
+            border: 1px solid black;
+            padding: 10px ;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background: rgb(109, 109, 109);
+        }
+        thead , tfoot{
+            background: rgb(109, 109, 109);
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+            
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table> <!--Tabela-->
+        <caption>
+            População das unidades federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 80px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 190</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td class="num">21 322 692</td>
+            </tr>
+            <tr> 
+                <td> Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 190</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td class="num">21 322 692</td>
+            </tr>
+            <tr> 
+                <td> Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 190</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td class="num">21 322 692</td>
+            </tr>
+            <tr> 
+                <td> Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num">135 583 720</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic reprehenderit natus ipsum incidunt deserunt provident ad vel quaerat illum iusto quam culpa qui sed excepturi aut animi, debitis fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, obcaecati accusantium! Adipisci sed totam perferendis reprehenderit, praesentium dolorem, architecto fuga a vitae, facere magnam quaerat doloremque? Numquam, similique provident? Blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur et, quia harum aut ex aperiam veritatis odio quod. Officiis enim fugiat error modi eos quis repudiandae recusandae assumenda odit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum delectus deleniti rem quidem accusantium quis animi exercitationem! Accusamus, rerum obcaecati est voluptatem optio voluptas labore! Voluptate dicta amet delectus.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic reprehenderit natus ipsum incidunt deserunt provident ad vel quaerat illum iusto quam culpa qui sed excepturi aut animi, debitis fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, obcaecati accusantium! Adipisci sed totam perferendis reprehenderit, praesentium dolorem, architecto fuga a vitae, facere magnam quaerat doloremque? Numquam, similique provident? Blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur et, quia harum aut ex aperiam veritatis odio quod. Officiis enim fugiat error modi eos quis repudiandae recusandae assumenda odit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum delectus deleniti rem quidem accusantium quis animi exercitationem! Accusamus, rerum obcaecati est voluptatem optio voluptas labore! Voluptate dicta amet delectus.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic reprehenderit natus ipsum incidunt deserunt provident ad vel quaerat illum iusto quam culpa qui sed excepturi aut animi, debitis fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, obcaecati accusantium! Adipisci sed totam perferendis reprehenderit, praesentium dolorem, architecto fuga a vitae, facere magnam quaerat doloremque? Numquam, similique provident? Blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur et, quia harum aut ex aperiam veritatis odio quod. Officiis enim fugiat error modi eos quis repudiandae recusandae assumenda odit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum delectus deleniti rem quidem accusantium quis animi exercitationem! Accusamus, rerum obcaecati est voluptatem optio voluptas labore! Voluptate dicta amet delectus.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic reprehenderit natus ipsum incidunt deserunt provident ad vel quaerat illum iusto quam culpa qui sed excepturi aut animi, debitis fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, obcaecati accusantium! Adipisci sed totam perferendis reprehenderit, praesentium dolorem, architecto fuga a vitae, facere magnam quaerat doloremque? Numquam, similique provident? Blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur et, quia harum aut ex aperiam veritatis odio quod. Officiis enim fugiat error modi eos quis repudiandae recusandae assumenda odit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum delectus deleniti rem quidem accusantium quis animi exercitationem! Accusamus, rerum obcaecati est voluptatem optio voluptas labore! Voluptate dicta amet delectus.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic reprehenderit natus ipsum incidunt deserunt provident ad vel quaerat illum iusto quam culpa qui sed excepturi aut animi, debitis fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, obcaecati accusantium! Adipisci sed totam perferendis reprehenderit, praesentium dolorem, architecto fuga a vitae, facere magnam quaerat doloremque? Numquam, similique provident? Blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur et, quia harum aut ex aperiam veritatis odio quod. Officiis enim fugiat error modi eos quis repudiandae recusandae assumenda odit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum delectus deleniti rem quidem accusantium quis animi exercitationem! Accusamus, rerum obcaecati est voluptatem optio voluptas labore! Voluptate dicta amet delectus.
+    </p>
+</html>
