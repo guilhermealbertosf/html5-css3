@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 70%;
+        }
+        thead{
+            background-color: lightgray;
+        }
+        td , th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .cnome{
+            background-color: aquamarine;
+        }
+        .csexo{
+            background-color: blueviolet;
+        }
+        .cidade{
+            background-color: goldenrod;
+        }
+        .cprof{
+            background-color: bisque;
+        }
+        .cgrup{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Agrupando colunas</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrup" span="2">
+            <col class="cprof">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <td scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>indivíduo</td>
+                <td>F </td>
+                <td> 26</td>
+                <td>Professor</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
