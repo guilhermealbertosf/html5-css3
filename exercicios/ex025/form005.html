@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Exemplo de Fornulário</h1>
+    <form action="cadastro.txt">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="radsex" id="sexmas" value="M" checked>
+            <label for="sexmas">Masculino</label>
+            <input type="radio" name="radsex" id="sexfem" value="F">
+            <label for="sexmas">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esful" id="iesful">
+            <label for="iesful">Futebola</label><br>
+            <input type="checkbox" name="esvol" id="iesvol">
+            <label for="iesvol">Volei</label><br>
+            <input type="checkbox" name="esqua" id="iesqua">
+            <label for="iesqua">Quadrado</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
