@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.txt" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required autocomplete="name" minlength="5" placeholder="Nome completo">
+            </p>
+            <p>
+                <label for="iemai">E-mail: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="E-mail">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^[0-9]{0,2}[0-9]{4,5}[0-9]{4}$" placeholder="ex.: 12 3456-7901" minlength="8" maxlength="11">
+            </p>
+        </fieldset>
+        <!--Estudar mais sobre expressões regulares (RegEx)-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
