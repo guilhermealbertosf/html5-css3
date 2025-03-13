@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/*Setup modo retrato*/
+
+body{
+    background-image: url("../imagens/cev-portrait.jpg") ;
+}
