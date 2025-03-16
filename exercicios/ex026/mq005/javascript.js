@@ -1,6 +1,6 @@
-menu_state = false
+
 function barrinha(){
-    /*
+    /*menu_state = false
     let menu = document.getElementById("menu")
     if(menu_state == false){
         menu.style.display = "block"
@@ -18,4 +18,12 @@ function barrinha(){
         menu.style.display = 'block'
     }
     
+}
+
+function mudouTamanho(){
+    if(window.innerWidth >= 768){       
+         menu.style.display = 'block'
+    }else{
+        menu.style.display = 'none'
+    }
 }

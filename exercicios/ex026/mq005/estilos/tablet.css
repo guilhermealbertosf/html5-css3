@@ -1,0 +1,14 @@
+@charset "UTF_8";
+
+span#barrinha{
+    display: none;
+}
+menu{
+    display: block;
+}
+header a, header li{
+    display: inline-block;
+}
+main{
+    max-width: 780px;
+}
