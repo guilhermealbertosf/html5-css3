@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        main{
+            background-color: lightcyan;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        section{
+            width: 80%;
+            height: 700px;
+            background-color: lightgreen;
+            margin: auto;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: space-evenly;
+        }
+        p{
+            background-color: salmon;
+            width: 400px;
+            height: 300px;
+        }
+        p img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste Flex</h1>
+        <section>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eum pariatur quo odit odio porro quod optio, iure tempora necessitatibus dolorem voluptates voluptas adipisci officia quisquam possimus dolorum? Nostrum, cum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam, nemo natus accusantium beatae facilis quis quas tempore quos rerum adipisci ipsum necessitatibus vitae, harum nisi aliquam sed reiciendis recusandae!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptas sit, magni eum sunt voluptates accusamus consequatur, doloremque debitis ducimus sapiente est sed laborum quo laudantium nostrum eaque maiores delectus?
+            </p>
+            <p>
+                <img src="mapa.jpg" alt="imagem">
+            </p>
+        </section>
+    </main>
+</body>
+</html>
